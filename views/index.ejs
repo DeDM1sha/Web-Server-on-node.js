@@ -7,17 +7,16 @@
 <link rel="stylesheet" href="/index/assets/css/main.css" />
 </head>
 <body>
-	<script>$('body').hide('fast');</script>
 <% if (messages.loginError) {%>
 		<p class="error"><%= messages.loginError %></p>
 		<script>
-                            	location="http://m1shaowned-m1shaowned.c9.io/authorization"; 
+                            	location="https://webcourse.herokuapp.com/authorization"; 
                             </script>
 <% } %>
 	<% if (messages.loginSucces) {%>
 		<p class="error"><%= messages.loginSucces %></p> 
 		<script>
-			location="http://m1shaowned-m1shaowned.c9.io" 
+			location="https://webcourse.herokuapp.com/" 
 		</script>
 	<% } %>
   <section id="header">
@@ -162,14 +161,12 @@ else
   </section>
 
 </div>
-
-<script src="/index/js/jquery-2.1.3.js"></script>
 <script src="/index/js/jquery.min.js"></script>
 <script src="/index/js/jquery.scrollzer.min.js"></script>
 <script src="/index/js/jquery.scrolly.min.js"></script>
 <script src="/index/js/skel.min.js"></script>
 <script src="/index/js/util.js"></script>
 <script src="/index/js/main.js"></script>
-<script src="/js/script.js"></script>
+<script src="/js/jquery-2.1.3.js"></script>
 </body>
 </html>
